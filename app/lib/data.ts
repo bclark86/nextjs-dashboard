@@ -1,3 +1,6 @@
+// Note: If you used your own database provider in Chapter 6, you'll need to update the database queries to work with your provider. You can find the queries in /app/lib/data.ts.
+
+
 import { sql } from '@vercel/postgres';
 import {
   CustomerField,
